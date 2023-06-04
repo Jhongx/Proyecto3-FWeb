@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Button(operador,fn) {
+function Button({operador,fn}) {
   return (
     <button
       type="button"
